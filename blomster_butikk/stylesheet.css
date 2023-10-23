@@ -13,16 +13,6 @@ html, body{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr;
 }
-.topp h1 {
-    grid-column-start:3 ;
-    grid-column-end: 6;
-    grid-row-start: 1;
-    padding-left: 40px;
-    margin-top:3px;
-    margin-bottom: 6px;
-    background-color: lightgreen;
-    border-radius: 20px;
-}
 #bruker_ikon {
     grid-column-start:9 ;
     width: 35px;

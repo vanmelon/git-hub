@@ -14,14 +14,22 @@
         <img src="bilder/ikoner/bruker.png" alt="bruker_icon" id="bruker_ikon">
 
         <img src="bilder/ikoner/sok.png" alt="søk_knap" id="sok_ikon">
-        <input type="search" id="search" data-search="">
+        <div class="search-wrapper" id="sok_gruppe">
+            <label for="search">Search Users</label>
+            <input type="search" id="search" data-search>
+        </div>
 
         <h1 id="log_inn">log inn</h1>
         <img src="bilder/ikoner/Hamburger_icon.svg.png" alt="Hamburger_icon" id="Hamburger_icon">
     </div>
+
 <!--grid systen--> 
-<!--
+  </div>
+  <div class="user-hoveds" data-user-cards-container></div>
+  <template data-user-template>
     <div class="hoved">
+        <div class="header" data-header></div>
+        <div class="body" data-body></div>  
         <div class="bilde">
             <h1>699 kr</h1>
             <img src="bilder/blomster/jennifer-coffin-grey-sb47Ya9p4c4-unsplash.jpg" alt="flover">
@@ -75,6 +83,5 @@
             <img src="bilder/blomster/orange_flower.png" alt="orange_flower">
         </div>
     </div>
--->
 </body>
 </html>

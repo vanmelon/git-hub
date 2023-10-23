@@ -9,7 +9,6 @@ html, body{
     margin: 0;
     background-color: gray;
     display: grid;
-    gap: 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr;
 }
@@ -35,6 +34,7 @@ html, body{
     grid-column-start:2;
     grid-row-start: 1;
     margin-top: 3px;
+    margin-left: 140px;
     height: 35px;
     background-color: lightgreen;
     padding-top: 2px;

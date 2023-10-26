@@ -1,3 +1,5 @@
+/** fårstår ikke åsen dette fungerer men jeg prøvde */
+
 const userhovedTemplate = document.querySelector("[data-user-template]")
 const userhovedContainer = document.querySelector("[data-user-hoveds-container]")
 const searchInput = document.querySelector("[data-search]")
